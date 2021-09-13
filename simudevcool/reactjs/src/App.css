@@ -1,0 +1,290 @@
+* {
+
+  margin: 0px;
+}
+
+.conteiner {
+  width: 100vw;
+  height: 100vh !important;
+
+  display: flex;
+  flex-direction: row;
+}
+
+/* barra lateral */
+.barra-lateral {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #2B3031;
+  width: 14em;
+  height: 42em;
+}
+
+.barra-lateral img {
+  background-color: #2B3031;
+}
+
+/* fim barra lateral */
+
+/* site */
+
+.site {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+  background-color: #2B3031 !important;
+
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.site img {
+  background-color: #2B3031 !important;
+}
+
+.pink {
+  background-color: #2B3031;
+  color: #EA10C7;
+}
+
+/* fim site */
+
+/*gerenciamento */
+
+.gerenciamento,
+.alunos {
+  background-color: #2B3031;
+}
+
+.gerenciamento {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+
+  color: white;
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+.gerenciamento img {
+  margin-left: 2.5em;
+}
+
+/* fim gerenciamento */
+
+hr {
+  height: 3em;
+  border: none;
+  background-color: #262626;
+
+  margin-bottom: 1em;
+}
+
+/* alunos */
+
+.alunos {
+  display: flex;
+  flex-direction: row;
+
+  background-color: white;
+  height: 5vh;
+}
+
+.alunos p {
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+
+  align-self: center;
+
+  background-color: white;
+}
+
+.alunos img {
+  margin: 0px;
+  margin-right: 1em;
+  margin-left: -0.30em;
+
+  background-color: white;
+}
+
+/* fim alunos */
+
+/* tela principal */
+
+.tela-principal {
+  display: flex;
+  flex-direction: column !important;
+
+  background-color: #F5F5F5 !important;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* cabecalho */
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  margin: 0px;
+
+  justify-content: space-between;
+
+  background-color: #FFFFFF;
+
+  height: 12vh;
+}
+
+.usuario {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  color: black;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+
+  background-color: #FFFFFF;
+}
+
+.usuario img {
+  margin-right: 1em;
+  margin: 0.5em;
+
+  background-color: #FFFFFF;
+}
+
+.botoes1 img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #986CDF;
+  margin: 5px;
+  padding: 0.5em;
+}
+
+.botoes1 {
+  background-color: #fff;
+  margin-right: 1em;
+}
+
+.bolinha {
+  bottom: 1.2em;
+  padding-right: 0.3em;
+  padding-top: 0.1em;
+  padding-bottom: 0.2em;
+
+  left: -1.6em;
+  position: relative;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #DB21BD;
+  border: 2px white solid;
+
+  color: white;
+  font-size: 0.9em;
+}
+
+/* fim cabecalho */
+
+/* box-novo-aluno */
+.box-novo-aluno {
+  background-color: white;
+  border: 1px solid black;
+
+  margin: 2em;
+
+  height: 15vh;
+  padding: 1em;
+
+}
+
+/* titulo */
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+
+  align-self: center;
+
+  padding-bottom: 1em;
+  margin-top: 1em;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.titulo img {
+  margin-right: 0.3em;
+}
+
+/* fim titulo*/
+
+/* formulario */
+.formulario {
+  display: flex;
+  flex-direction: row !important;
+
+  flex-wrap: wrap;
+
+  margin-left: 1em;
+}
+
+.botao button {
+  background-color: #EA10C7;
+  border: none;
+
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0.7em;
+  border-radius: 80em;
+}
+
+/* fim formulario */
+/* fim box-novo-aluno */
+
+.box-alunos-matriculados {
+  background-color: white;
+  border: 1px solid black;
+
+  margin: 2em;
+
+  height: 15vh;
+  padding: 1em;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bm-titulo {
+  display: flex;
+  flex-direction: row;
+
+  align-self: center;
+
+  padding-bottom: 1em;
+  margin-top: 1em;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.bm-titulo img {
+  margin-right: 0.3em;
+}
+
+.botoes2 img {
+  backgro
